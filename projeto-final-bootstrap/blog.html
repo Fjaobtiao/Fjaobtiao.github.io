@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- requisitos
+    Jquery : utilizar um scroll que a partir de  400px do topo do body apareça uma seta ao lado direito da pagina que funciona como retorno suave para o inicio da pagina , aplicar essa função na pagina inicial do projeto.
+    JavaScript: validações.
+    Css: Estilizar o rodapé usando exclusivamente css.
+    HTML: Utilizar <aside> e <article>
+    Realizar comentário no código linha 4 os requisitos específicos(indice dos requisitos). -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/fd6609d8e9.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <title>Sou Técnica</title>
+</head>
+
+<body>
+    <header id="top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img alt="logo" src="images/logo-top.png" class="logo" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+
+    <section class="breadcrumb-top2">
+        <div class="bredtop">
+
+            <h1 class="titbread">Blog</h1>
+            <div class="breadtit"><a href="index.html">home</a> | blog</div>
+
+        </div>
+    </section>
+
+    <div class="container topsite">
+      <div class=" row">
+        <div class="col-lg-9">
+            <main>
+                
+                
+                <article class="col-lg-12">
+                    <div class="imgblog-page">
+                        <figure><a href="blog-01.html"><img src="images/blog_01.jpg" /></a></figure>
+                        <div class="imgblog-texto">                  
+                            <h3 class="imgblog-tit"><a href="blog-01.html">Dica importante para o bom funcionamento do seu micro-ondas</a></h3>                  
+                          <div class="imgblog-descr">
+                            <p>Ligue o micro-ondas na potência correta e bom uso. Abaixo, deixamos uma receita de uma boa pipoca de micro…</p>
+                          </div>
+                        </div>
+                        <a class="btn btn-outline-secondary" href="blog-01.html">Saiba mais <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    </div>
+                  </article>
+
+                  <hr class="my-5">
+
+                  <article class="col-lg-12">
+                    <div class="imgblog-page">
+                        <figure><a href="blog-02.html"><img src="images/blog_02.jpg" /></a></figure>
+                        <div class="imgblog-texto">                  
+                            <h3 class="imgblog-tit"><a href="blog-02.html">Como saber se o seu forno está assando o bolo corretamente?</a></h3>                  
+                          <div class="imgblog-descr">
+                            <p>Fique atento ao tempo da receita e não abra o forno antes dos 30 minutos. Lembre-se de aquecer o forno…</p>
+                          </div>
+                        </div>
+                        <a class="btn btn-outline-secondary" href="blog-02.html">Saiba mais <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    </div>
+                  </article>
+
+                  <hr class="my-5">
+
+                  <article class="col-lg-12">
+                    <div class="imgblog-page">
+                        <figure><a href="blog-03.html"><img src="images/blog_03.jpg" /></a></figure>
+                        <div class="imgblog-texto">                  
+                            <h3 class="imgblog-tit"><a href="blog-03.html">Minha geladeira parece não gelar, como saber se está tudo bem?</a></h3>                  
+                          <div class="imgblog-descr">
+                            <p>Veja se tem gelo pronto e bom churrasco! Se não tiver, fique atento as dicas abaixo: Tem energia em casa…</p>
+                          </div>
+                        </div>
+                        <a class="btn btn-outline-secondary" href="blog-03.html">Saiba mais <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    </div>
+                  </article>
+
+
+            </main>
+
+        </div>
+
+        <div class="col-lg-3 sidebar style="height: 2500px;">
+
+            <aside>
+                
+                <form class="wp-searchform" action="#">
+                    <input class="input-div" type="text" name="s" value="" placeholder="Buscar">
+                    <button id="searchsubmit" type="submit" class="btn-xs"><span class="search-icon fa fa-search"></span></button>
+                </form>
+
+                <section>
+                    <div class="ltx-sidebar-header">
+                        <h3 class="header-widget ">
+                            <span class="widget-icon"></span>Sobre a Empresa<span class="last widget-icon"></span>
+                        </h3>
+                    </div>
+                    <img src="images/sobre.jpg" class="img-fluid">
+                    <p>In quis convallis lacus, id feugiat massa. Praesent id facilisis eros. Mauris bibendum iaculis nisi quis sollicitudin. Aenean in arcu eu turpis tristique convallis ac id lorem.</p>
+                    <a class="btn btn-outline-secondary" href="#">Saiba mais <i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></a>
+                </section>
+
+
+
+            </aside>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <footer>
+
+        <footer>
+            <div class="footecont">
+                <div class="footbut">
+                    <img src="images/logo-top.png" alt="" class="logo-foot">
+                    <p>Etiam consequat sem ullamcorper, euismod metus sit amet, tristique justo. Vestibulum mattis, nisi
+                        ut
+                        faucibus commodo, risus ex commodo.
+                    </p>
+                </div>
+                <div class="footbut">
+                    <h3 class="header-widget "><span class="widget-icon"></span>Importante<span
+                            class="last widget-icon"></span>
+                    </h3>
+                    <div id="ltx_icons-2" class="widget widget_ltx_icons">
+                        <ul class="social-icons-list">
+                            <li>
+                                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="txt">Entre em
+                                        Contato<br>
+                                        <strong> 11 9 9999-9999 </strong></span></a>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i><span
+                                        class="txt">E-mail<br>
+                                        <strong> contato@soultecnica.com.br </strong></span></a>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footbut">
+                    <h3 class="header-widget "><span class="widget-icon"></span>Siga-nos<span
+                            class="last widget-icon"></span>
+                    </h3>
+                    <ul class="socialfoot">
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <a href="#top" id="topo"><i class="fa fa-arrow-circle-o-up"></i></a>  <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+              </div>
+              <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+              <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+              </script>
+                      <div>
+                        <a href="https://api.whatsapp.com/send?phone=55###########" target="_blank">
+                            <img class="whatsapp" src="./images/ico-whats-app.png" />
+                        </a>
+                    </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+        </script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
